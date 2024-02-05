@@ -1,0 +1,98 @@
+
+body{
+    /* background-image: url(./batman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #e3e6e6;
+    color: rgb(76, 76, 76);
+}
+.pinky,a{
+    display: block;
+
+}
+#cont{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    
+}
+form{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    border-radius: 8px;
+    padding:20px;
+    height: 65vh;
+    
+}
+form  h2{
+    text-align: center;
+    
+    /* color: rgb(244, 127, 147); */
+    font-size: 34px;
+    margin-top: 10px;
+}
+form label{
+    /* color: rgb(202, 158, 76); */
+    font-size: 18px;
+}
+form .paisa{
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(195, 244, 244, 0.55);
+}
+form .paisa:hover{
+    border: 2px solid rgb(206, 96, 114);
+}
+form #btn{
+    display: flex;
+    justify-content: space-between;
+    
+}
+button{
+    width: 40%;
+    height: 2.2rem;
+    color: white;
+    font-size: 1.1rem;
+    background-color: rgb(20, 245, 20);
+    border: none;
+    border-radius: 4px;
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(11, 122, 11);
+}
+#cancel{
+    background-color: rgb(255, 53, 53);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+a{
+    display: inline;
+    justify-content: space-between;
+
+}
+form a{
+    text-decoration: none;
+    color: rgb(156, 33, 53);
+}
+#user{
+    position: relative;
+}
+.fa-regular{
+    position: absolute;
+    top: 54%;
+    left: 93%;
+}
+span{
+    color: red;
+}
